@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Amazon Replica</title>
+</head>
+<body>
+
+
+    <!-- I used way too many relative positioning elements for this. If I were to remake this, I would use bootstrap and "mx-auto" everything. -->
+
+     <!-- Sign in form -->
+        
+    <div class="border-class">
+     
+        <div class="main-box"><form action="">
+            <div class="box-title">
+                <h2>Sign In</h2>
+            </div>
+            <div class="input-field">
+                <label for="email">Email(phone or mobile accounts)</label><br>
+                <input type="text" placeholder="Enter Email here">
+            </div>
+            <div class="input-field">
+                <!-- I'm wondering how to add the forgot password button here. Should add it with the label text? -->
+        <label for="password">Password <p style="color:#096cc6; display: inline; margin-left: 35%;">Forgot password?</p></label><br>
+                <input type="text" placeholder="Enter Password">
+            </div>
+            <div class="continue-button">
+                <button style="width: 242px; height: 19px; background-color: #FCCE2B;">Continue</button>
+            </div>
+            </form>
+            <!-- Remaining form text -->
+            <ul><p id="need-help"><li>Need help?</li></p></ul>
+        </div>
+
+    </div>
+   
+    <!-- New to amazon -->
+    <div class="line-container">
+        <div class="horizontal-line"></div>
+        <span class="interrupted-text">New to Amazon?</span>
+        <div class="horizontal-line"></div>
+    </div>
+    <div class="button-container"><button id="create-your-account">Create your Amazon Account</button></div>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <a href="#">Conditions of Use</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Help</a>
+        </div>
+        
+
+        <p>&copy; 1996-2020, Amazon.com,inc or it's affiliates </p>
+    </footer>
+
+
+</body>
+</html>
